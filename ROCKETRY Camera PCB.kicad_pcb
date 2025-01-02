@@ -14562,8 +14562,8 @@
 		)
 	)
 	(gr_circle
-		(center 117.8052 68.961)
-		(end 119.7102 68.961)
+		(center 117.983 68.453)
+		(end 119.888 68.453)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -14675,8 +14675,8 @@
 		(uuid "5991dc97-4dd6-485e-80a1-046d409f080d")
 	)
 	(gr_circle
-		(center 116.84 119.888)
-		(end 118.745 119.888)
+		(center 117.983 120.142)
+		(end 119.888 120.142)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -14895,8 +14895,8 @@
 		(uuid "faa6e238-fd46-41ef-af7c-579eba29bc54")
 	)
 	(gr_circle
-		(center 161.4678 68.8086)
-		(end 163.3728 68.8086)
+		(center 161.671 68.453)
+		(end 163.576 68.453)
 		(stroke
 			(width 0.05)
 			(type default)
