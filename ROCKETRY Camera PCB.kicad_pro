@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.75
+          "height": 0.95,
+          "width": 1.05
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -480,7 +480,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -490,7 +495,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ROCKETRY Camera PCB.step",
+      "step": "step/ROCKETRY Camera PCB.step",
       "svg": "",
       "vrml": ""
     },

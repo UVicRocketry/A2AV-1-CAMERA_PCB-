@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UVR Anduril 2 Camera PCB")
-		(date "Dec 30 2024")
-		(rev "Rev 2")
+		(date "2025-02-11")
+		(rev "Rev 2.1")
 		(company "By: Khephren Gould")
 	)
 	(lib_symbols
@@ -3070,6 +3070,12 @@
 		)
 	)
 	(junction
+		(at 187.96 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d4afcdb-86c9-4629-a995-1a0ae1f90b4c")
+	)
+	(junction
 		(at 172.72 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3112,6 +3118,12 @@
 		(uuid "60cf2b69-bbe8-4aa0-9763-f2e61b61b24c")
 	)
 	(junction
+		(at 211.455 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "709dedc8-5207-4816-8387-e90445fe3da4")
+	)
+	(junction
 		(at 173.7281 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3128,6 +3140,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79f1bea2-55df-4b6c-9cc9-53258f82e316")
+	)
+	(junction
+		(at 124.46 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab219f9-fa94-4833-aad9-5cd092e4528e")
 	)
 	(junction
 		(at 88.2142 111.0996)
@@ -3178,10 +3196,28 @@
 		(uuid "bcc08532-334c-4b0c-978c-01957c498f3d")
 	)
 	(junction
+		(at 89.535 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc542f80-0bb9-4e3b-9e13-11cf35e23b6b")
+	)
+	(junction
 		(at 211.455 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0dce8f6-13e7-4cea-a9e1-0aa5a4ce1150")
+	)
+	(junction
+		(at 172.72 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31db583-5ab7-4d26-b2f8-10edc503e859")
+	)
+	(junction
+		(at 198.12 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d96082ae-05eb-4cea-9795-db4036d805c1")
 	)
 	(junction
 		(at 165.1 39.3657)
@@ -3387,6 +3423,16 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c8d2080-3862-42da-ba87-0467c23fd9cd")
+	)
+	(wire
+		(pts
 			(xy 217.17 134.62) (xy 222.25 134.62)
 		)
 		(stroke
@@ -3427,7 +3473,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 55.88) (xy 172.72 60.96)
+			(xy 172.72 55.88) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3454,6 +3500,16 @@
 			(type default)
 		)
 		(uuid "16d898e9-1358-476b-bed0-9676c420f416")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178df5b1-dd23-4bfc-8734-815d09ed4bcc")
 	)
 	(wire
 		(pts
@@ -3484,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "1dfa3d08-d3ae-4160-941c-061f6db079e1")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 198.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e16000a-7313-4596-ba63-6b801c870dd2")
 	)
 	(wire
 		(pts
@@ -3577,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 49.53) (xy 187.96 63.5)
+			(xy 187.96 49.53) (xy 187.96 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3693,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 49.53) (xy 198.12 63.5)
+			(xy 198.12 49.53) (xy 198.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3654,6 +3720,36 @@
 			(type default)
 		)
 		(uuid "475bbaa8-925b-4a02-a184-a4ad6db90bbf")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4841e98a-68ca-4fb7-9c0c-54d48cc72bf6")
+	)
+	(wire
+		(pts
+			(xy 211.455 50.8) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a13d6e4-73a4-44fb-ac2b-7bcd70e751a7")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3c3135-742e-40ae-b73f-44767a5bfb42")
 	)
 	(wire
 		(pts
@@ -3747,6 +3843,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 60.96) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58338d61-4cb1-4046-8f0d-3a48a8355158")
+	)
+	(wire
+		(pts
 			(xy 172.72 106.68) (xy 191.77 106.68)
 		)
 		(stroke
@@ -3794,6 +3900,36 @@
 			(type default)
 		)
 		(uuid "5f6267a7-b0b8-4da2-9c79-d4bc1857fb12")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6034c724-fb44-467a-b3c1-5a48d7b3a576")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6041d18a-e5ed-4c0c-9853-f8e1854ac9d9")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608288f9-bdf2-4051-8829-9910447cdc4e")
 	)
 	(wire
 		(pts
@@ -3997,6 +4133,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 50.8) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0f0e95-e079-4b36-9060-b9ffaf62cc5c")
+	)
+	(wire
+		(pts
 			(xy 172.72 35.56) (xy 181.61 35.56)
 		)
 		(stroke
@@ -4157,6 +4303,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 58.42) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00676a0-5d9b-4e50-823b-14380a98016a")
+	)
+	(wire
+		(pts
 			(xy 207.01 147.32) (xy 207.01 149.86)
 		)
 		(stroke
@@ -4214,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "dd33e8bc-7e23-4495-a4f2-186cbcda114f")
+	)
+	(wire
+		(pts
+			(xy 124.46 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c77501-029c-4f7a-bb08-14155b9e0e96")
 	)
 	(wire
 		(pts
@@ -4354,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "f9ccec81-b5a0-4b38-bcf9-91b7ce502264")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faeebbb8-3c2a-41ea-b302-d1a70c5576e2")
 	)
 	(text "NOTES:\n1. DC-DC CONVERTER OUTPUT IS 5V\n2. THE ADXL375 HAS INTERNAL PULLUP RESISTORS FOR I2C LINES AND \nTHE NANO I2C LINES ARE A4 AND A5"
 		(exclude_from_sim no)
