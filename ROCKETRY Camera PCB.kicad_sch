@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UVR Anduril 2 Camera PCB")
-		(date "2025-02-11")
-		(rev "Rev 2.1")
+		(date "2025-02-15")
+		(rev "Rev 2.2")
 		(company "By: Khephren Gould")
 	)
 	(lib_symbols
@@ -7073,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 62.23 33.02 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 			(uuid "de68928b-0854-4d6f-9496-fee30ca081a3")
 		)
 		(instances
-			(project ""
+			(project "ROCKETRY Camera PCB"
 				(path "/977e3c33-6744-4a35-9b77-0633aa2ba496"
 					(reference "J5")
 					(unit 1)
@@ -7900,7 +7900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 158.75 109.22 0)
 			(effects
 				(font
