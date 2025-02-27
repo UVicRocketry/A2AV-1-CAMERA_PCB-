@@ -495,7 +495,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "step/ROCKETRY Camera PCB.step",
+      "step": "ROCKETRY Camera PCB.step",
       "svg": "",
       "vrml": ""
     },
